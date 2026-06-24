@@ -159,7 +159,7 @@ img.photo { border: 0; object-fit: cover; display: block; }
   margin-bottom: 8px;
 }
 .section-head--work { margin-bottom: 28px; }
-.section-head h2 { font-weight: 500; font-size: 40px; margin: 0; }
+.section-head h2 { font-weight: 500; font-size: 40px; line-height: 1.1; margin: 0; }
 .section-head__label {
   font-size: 13px;
   letter-spacing: .14em;
@@ -267,7 +267,7 @@ img.photo { border: 0; object-fit: cover; display: block; }
   .hero-photo { height: 380px; }
 
   /* Stack each section head so the heading and its label don't collide */
-  .section-head { flex-direction: column; align-items: flex-start; gap: 6px; }
+  .section-head { flex-direction: column; align-items: flex-start; gap: 12px; }
 
   /* Collapse the services grid to one column; drop the vertical hairlines.
      Selectors match the :nth-child base rules' specificity so they win. */
