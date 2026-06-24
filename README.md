@@ -30,7 +30,7 @@ The design ships with dashed placeholder boxes where photos go. To use real imag
 2. In `index.html`, replace each `<div class="photo …">…</div>` placeholder with an `<img>`:
 
    ```html
-   <img class="hero-photo" src="images/hero.jpg" alt="A completed renovation">
+   <img class="photo hero-photo" src="images/hero.jpg" alt="A completed renovation">
    <!-- and for the gallery -->
    <img class="photo work__item" src="images/project-1.jpg" alt="Kitchen remodel in Aurora">
    ```
