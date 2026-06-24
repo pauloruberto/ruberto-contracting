@@ -266,10 +266,15 @@ img.photo { border: 0; object-fit: cover; display: block; }
   .hero { padding: 56px var(--pad-x) 48px; }
   .hero-photo { height: 380px; }
 
-  /* Collapse the services grid to one column; drop the vertical hairline */
+  /* Stack each section head so the heading and its label don't collide */
+  .section-head { flex-direction: column; align-items: flex-start; gap: 6px; }
+
+  /* Collapse the services grid to one column; drop the vertical hairlines.
+     Selectors match the :nth-child base rules' specificity so they win. */
   .services__grid { grid-template-columns: 1fr; }
-  .service,
+  .service:nth-child(odd),
   .service:nth-child(even) { padding: 28px 0; border-right: 0; }
+  .service:nth-child(1) { padding-top: 4px; }
   .service:nth-child(1),
   .service:nth-child(2),
   .service:nth-child(3) { border-bottom: 1px solid var(--hairline); }
