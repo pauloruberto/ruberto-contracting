@@ -38,10 +38,11 @@ The design ships with dashed placeholder boxes where photos go. To use real imag
    `object-fit: cover` is already applied to `img.photo`, so any aspect ratio crops cleanly.
    Suggested sizes: hero ≈ 16:9 (e.g. 1600×900), gallery ≈ 3:2 (e.g. 1200×800).
 
-## Contact email
+## Contact details
 
-The contact address is currently `hello@rubertocontracting.com` (placeholder from the handoff).
-Confirm the real address and update both `mailto:` links and the details row in `index.html`.
+The contact section lists `alessandro.ruberto@icloud.com` (both the "Email the Studio"
+button and the Email row) and the phone `416 559 0294`. Update these in `index.html` if
+they change — the email appears in two `mailto:` links and the phone in one `tel:` link.
 
 ## Deployment (GitHub Pages)
 
